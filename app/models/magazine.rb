@@ -13,4 +13,10 @@ def self.all
   @@all
 end
 
+def contributors
+#filter from articles the articles{|article|article.magazine.name==@name}
+#.map{|article|article.author.name}.uniq
+Article.all.filter{|article|article.magazine.name==@name}
+.map{|article|article.author}.uniq
+end
 end
