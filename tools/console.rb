@@ -16,7 +16,6 @@ at1.add_article(mag1,"Title3")
 at1.add_article(mag1,"Title4")
 at1.add_article(mag2,"Title5")
 at1.add_article(mag3,"Title6")
-at1.add_article(mag1,"Title7")
 
 
 
