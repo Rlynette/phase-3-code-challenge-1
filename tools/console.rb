@@ -13,8 +13,11 @@ mag3=Magazine.new("Mag3","Cat2")
 art1=Article.new(at1,mag1,"Title1")
 art2=Article.new(at1,mag1,"Title2")
 at1.add_article(mag1,"Title3")
-at1.add_article(mag2,"Title4")
-at1.add_article(mag3,"Title5")
+at1.add_article(mag1,"Title4")
+at1.add_article(mag2,"Title5")
+at1.add_article(mag3,"Title6")
+at1.add_article(mag1,"Title7")
+
 
 
 
